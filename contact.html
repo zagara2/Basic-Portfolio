@@ -34,12 +34,12 @@
 		<div class = "bigheading"> <h1>Contact</h1> </div>
 		<div id = "contactinfo"> <!--  does the form need to go in its own div? -->
 			<form id = "contactform">
-			Name<br>
-  			<input type="text" name="contactname" value= "John Smith"><br> <br>
-  			Email<br>
- 			<input type="text" name="email" value = "example@gmail.com"> <br> <br>
- 			Message<br>
- 			<textarea form="contactform"> </textarea> 
+			<div class = "formtext"> Name</div>
+  			<input type="text" name="contactname" placeholder = "  John Smith" ><br> <br>
+  			<div class = "formtext"> Email </div>
+ 			<input type="text" name="email" placeholder = "  example@gmail.com"> <br> <br>
+ 			<div class = "formtext"> Message </div>
+ 			<div class = message> <textarea form="contactform" rows="10" cols="83"> </textarea> </div>
  			<br> <br>
  			<input type="submit" value="Submit">
  			</form>
